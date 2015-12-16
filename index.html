@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Bootstrap Grid Demo</title>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/css/styles.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Header Start -->
+  <header id="header" role="header">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-md-12 col-xs-12 col-sm-12">
+          <ul class="navigation hidden-xs">
+            <li><a href="#" class="nav-link" data-view="grid">Grid</a></li>
+            <li><a href="#" class="nav-link active" data-view="tiles">Tiles</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row visible-xs-block hidden-sm hidden-md hidden-lg">
+        <div class="col-xs-10 col-sm-10 col-md-10"></div>
+        <div class="col-xs-2 col-sm-2 col-md-2">
+          <button class="navbar-toggle collapsed visible-xs-block" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+      </div>
+
+      <div class="row visible-xs-block hidden-sm hidden-md hidden-lg">
+        <div class="col-xs-12 col-sm-12 col-md-12">
+          <nav id="mobile-menu-items" class="navbar-collapse bs-navbar-collapse collapse visible-xs-block hidden-sm hidden-md hidden-lg" role="navigation">
+            <ul class="nav navbar-nav">
+              <li><a href="#" class="nav-link" data-view="grid">Grid</a></li>
+              <li><a href="#" class="nav-link active" data-view="tiles">Tiles</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- Header End -->
+
+  <!-- Content Start -->
+  <div id="main">
+    <div class="container">
+      <div id="views">
+
+          <!-- Submissions View Start -->
+          <div id="view-grid" class="view">
+            <div class="row">
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="grid-sample">
+                  <h3>Grid Values</h3>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="grid-sample">
+                  <h4>12</h4>
+                  <p>Full Width: <span class="width-full-value">0</span></p>
+                  <p>Content Width: <span class="width-value">0</span></p>
+                  <p>L-Padding: <span class="gutter-left-value">0</span></p>
+                  <p>R-Padding: <span class="gutter-right-value">0</span></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                <div class="grid-sample">
+                  <h4>6</h4>
+                  <p>Full Width: <span class="width-full-value">0</span></p>
+                  <p>Content Width: <span class="width-value">0</span></p>
+                  <p>L-Padding: <span class="gutter-left-value">0</span></p>
+                  <p>R-Padding: <span class="gutter-right-value">0</span></p>
+                </div>
+              </div>
+              <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                <div class="grid-sample last">
+                  <h4>6</h4>
+                  <p>Full Width: <span class="width-full-value">0</span></p>
+                  <p>Content Width: <span class="width-value">0</span></p>
+                  <p>L-Padding: <span class="gutter-left-value">0</span></p>
+                  <p>R-Padding: <span class="gutter-right-value">0</span></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                <div class="grid-sample">
+                  <h4>4</h4>
+                  <p>Full Width: <span class="width-full-value">0</span></p>
+                  <p>Content Width: <span class="width-value">0</span></p>
+                  <p>L-Padding: <span class="gutter-left-value">0</span></p>
+                  <p>R-Padding: <span class="gutter-right-value">0</span></p>
+                </div>
+              </div>
+              <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                <div class="grid-sample">
+                  <h4>4</h4>
+                  <p>Full Width: <span class="width-full-value">0</span></p>
+                  <p>Content Width: <span class="width-value">0</span></p>
+                  <p>L-Padding: <span class="gutter-left-value">0</span></p>
+                  <p>R-Padding: <span class="gutter-right-value">0</span></p>
+                </div>
+              </div>
+              <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                <div class="grid-sample last">
+                  <h4>4</h4>
+                  <p>Full Width: <span class="width-full-value">0</span></p>
+                  <p>Content Width: <span class="width-value">0</span></p>
+                  <p>L-Padding: <span class="gutter-left-value">0</span></p>
+                  <p>R-Padding: <span class="gutter-right-value">0</span></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                <div class="grid-sample">
+                  <h4>3</h4>
+                  <p>Full Width: <span class="width-full-value">0</span></p>
+                  <p>Content Width: <span class="width-value">0</span></p>
+                  <p>L-Padding: <span class="gutter-left-value">0</span></p>
+                  <p>R-Padding: <span class="gutter-right-value">0</span></p>
+                </div>
+              </div>
+              <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                <div class="grid-sample">
+                  <h4>3</h4>
+                  <p>Full Width: <span class="width-full-value">0</span></p>
+                  <p>Content Width: <span class="width-value">0</span></p>
+                  <p>L-Padding: <span class="gutter-left-value">0</span></p>
+                  <p>R-Padding: <span class="gutter-right-value">0</span></p>
+                </div>
+              </div>
+              <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                <div class="grid-sample">
+                  <h4>3</h4>
+                  <p>Full Width: <span class="width-full-value">0</span></p>
+                  <p>Content Width: <span class="width-value">0</span></p>
+                  <p>L-Padding: <span class="gutter-left-value">0</span></p>
+                  <p>R-Padding: <span class="gutter-right-value">0</span></p>
+                </div>
+              </div>
+              <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                <div class="grid-sample last">
+                  <h4>3</h4>
+                  <p>Full Width: <span class="width-full-value">0</span></p>
+                  <p>Content Width: <span class="width-value">0</span></p>
+                  <p>L-Padding: <span class="gutter-left-value">0</span></p>
+                  <p>R-Padding: <span class="gutter-right-value">0</span></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+                <div class="grid-sample">
+                  <h4>2</h4>
+                  <p>Full Width: <span class="width-full-value">0</span></p>
+                  <p>Content Width: <span class="width-value">0</span></p>
+                  <p>L-Padding: <span class="gutter-left-value">0</span></p>
+                  <p>R-Padding: <span class="gutter-right-value">0</span></p>
+                </div>
+              </div>
+              <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+                <div class="grid-sample">
+                  <h4>2</h4>
+                  <p>Full Width: <span class="width-full-value">0</span></p>
+                  <p>Content Width: <span class="width-value">0</span></p>
+                  <p>L-Padding: <span class="gutter-left-value">0</span></p>
+                  <p>R-Padding: <span class="gutter-right-value">0</span></p>
+                </div>
+              </div>
+              <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+                <div class="grid-sample">
+                  <h4>2</h4>
+                  <p>Full Width: <span class="width-full-value">0</span></p>
+                  <p>Content Width: <span class="width-value">0</span></p>
+                  <p>L-Padding: <span class="gutter-left-value">0</span></p>
+                  <p>R-Padding: <span class="gutter-right-value">0</span></p>
+                </div>
+              </div>
+              <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+                <div class="grid-sample">
+                  <h4>2</h4>
+                  <p>Full Width: <span class="width-full-value">0</span></p>
+                  <p>Content Width: <span class="width-value">0</span></p>
+                  <p>L-Padding: <span class="gutter-left-value">0</span></p>
+                  <p>R-Padding: <span class="gutter-right-value">0</span></p>
+                </div>
+              </div>
+              <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+                <div class="grid-sample">
+                  <h4>2</h4>
+                  <p>Full Width: <span class="width-full-value">0</span></p>
+                  <p>Content Width: <span class="width-value">0</span></p>
+                  <p>L-Padding: <span class="gutter-left-value">0</span></p>
+                  <p>R-Padding: <span class="gutter-right-value">0</span></p>
+                </div>
+              </div>
+              <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+                <div class="grid-sample last">
+                  <h4>2</h4>
+                  <p>Full Width: <span class="width-full-value">0</span></p>
+                  <p>Content Width: <span class="width-value">0</span></p>
+                  <p>L-Padding: <span class="gutter-left-value">0</span></p>
+                  <p>R-Padding: <span class="gutter-right-value">0</span></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"><div class="grid-sample"><h4>1</h4></div></div>
+              <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"><div class="grid-sample"><h4>1</h4></div></div>
+              <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"><div class="grid-sample"><h4>1</h4></div></div>
+              <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"><div class="grid-sample"><h4>1</h4></div></div>
+              <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"><div class="grid-sample"><h4>1</h4></div></div>
+              <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"><div class="grid-sample"><h4>1</h4></div></div>
+              <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"><div class="grid-sample"><h4>1</h4></div></div>
+              <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"><div class="grid-sample"><h4>1</h4></div></div>
+              <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"><div class="grid-sample"><h4>1</h4></div></div>
+              <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"><div class="grid-sample"><h4>1</h4></div></div>
+              <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"><div class="grid-sample"><h4>1</h4></div></div>
+              <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"><div class="grid-sample last"><h4>1</h4></div></div>
+            </div>
+          </div>
+          <!-- Submissions View End -->
+
+          <!-- Home View Start -->
+          <div id="view-tiles" class="view">
+
+
+            <div class="row">
+              <div class="col-md-12">
+                <h3>Header 3</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-12">
+                <div class="home-grid">
+                  <div class="row">
+
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                      <div class="entry">
+                        <img src="http://lorempixel.com/400/400/cats" class="img-responsive" alt="" />
+                        <div class="meta">
+                          <p class="votes"><span class="value">1230</span> votes</p>
+                          <div class="social">
+                            <a href="" class="twitter"></a>
+                            <a href="" class="facebook"></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                      <div class="entry">
+                        <img src="http://lorempixel.com/400/400/cats" class="img-responsive" alt="" />
+                        <div class="meta">
+                          <p class="votes"><span class="value">1230</span> votes</p>
+                          <div class="social">
+                            <a href="" class="twitter"></a>
+                            <a href="" class="facebook"></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                      <div class="entry">
+                        <img src="http://lorempixel.com/400/400/cats" class="img-responsive" alt="" />
+                        <div class="meta">
+                          <p class="votes"><span class="value">1230</span> votes</p>
+                          <div class="social">
+                            <a href="" class="twitter"></a>
+                            <a href="" class="facebook"></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                      <div class="entry">
+                        <img src="http://lorempixel.com/400/400/cats" class="img-responsive" alt="" />
+                        <div class="meta">
+                          <p class="votes"><span class="value">1230</span> votes</p>
+                          <div class="social">
+                            <a href="" class="twitter"></a>
+                            <a href="" class="facebook"></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                      <div class="entry">
+                        <img src="http://lorempixel.com/400/400/cats" class="img-responsive" alt="" />
+                        <div class="meta">
+                          <p class="votes"><span class="value">1230</span> votes</p>
+                          <div class="social">
+                            <a href="" class="twitter"></a>
+                            <a href="" class="facebook"></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                      <div class="entry">
+                        <img src="http://lorempixel.com/400/400/cats" class="img-responsive" alt="" />
+                        <div class="meta">
+                          <p class="votes"><span class="value">1230</span> votes</p>
+                          <div class="social">
+                            <a href="" class="twitter"></a>
+                            <a href="" class="facebook"></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Home View End -->
+
+        </div>
+    </div>
+  </div>
+  <!-- Content End -->
+
+
+  <!-- Footer Start -->
+  <footer id="footer" role="footer"></footer>
+  <!-- Footer End -->
+
+  <script src="assets/js/jquery-1.10.2.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/spin.min.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
